@@ -50,33 +50,8 @@ function Calendar({ onClose }) {
 
   return (
     <div className="calendar-container">
-      {/* 헤더 */}
-      <div className="calendar-header">
-        <button onClick={handlePrevMonth}>이전</button>
-        <h2 className="current-month">
-          {currentYear}년 {currentMonth + 1}월
-        </h2>
-        <button onClick={handleNextMonth}>다음</button>
-      </div>
-
-      {/* 요일 */}
-      <div className="calendar-days">
-        <div className="day">일</div>
-        <div className="day">월</div>
-        <div className="day">화</div>
-        <div className="day">수</div>
-        <div className="day">목</div>
-        <div className="day">금</div>
-        <div className="day">토</div>
-      </div>
-
-      {/* 날짜 */}
-      <div className="calendar-dates">{renderCalendarDates()}</div>
-
-      {/* 닫기 버튼 */}
-      <div className="calendar-footer">
-        <button onClick={"/"} className="close-button">닫기</button>
-      </div>
+      https://file+.vscode-resource.vscode-cdn.net/Users/jigdongdaejang/Documents/GitHub/cjsumtteul-page/Front-end/Screenshot%202025-02-01%20at%2010.05.57%E2%80%AFAM.png?version%3D1738660000751
+      이거 그대로 구현해야 함
     </div>
   );
 }
