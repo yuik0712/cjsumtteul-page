@@ -49,10 +49,11 @@ function Calendar({ onClose }) {
   };
 
   return (
-    <div className="calendar-container">
-      https://file+.vscode-resource.vscode-cdn.net/Users/jigdongdaejang/Documents/GitHub/cjsumtteul-page/Front-end/Screenshot%202025-02-01%20at%2010.05.57%E2%80%AFAM.png?version%3D1738660000751
-      이거 그대로 구현해야 함
-    </div>
+    <time datetime="2014-09-20" class="icon">
+        <em>Saturday</em>
+        <strong>September</strong>
+        <span>20</span>
+      </time>
   );
 }
 
