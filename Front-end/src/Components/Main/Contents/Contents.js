@@ -12,18 +12,15 @@ function Contents() {
 
     // "입장하기" 버튼 클릭 시 비밀번호 팝업 띄우기
     const handleOpenPopup = () => {
-        setShowPopup(true); // Update showPopup state to true
-        navigate("?showPopup=true"); // Update URL query parameter
+        setShowPopup(true); // showPopup 상태를 true로 업데이트 
+        navigate("?showPopup=true"); // URL 쿼리 매개변수 업데이트
     };
 
-    // 팝업 닫기 (쿼리스트링 제거)
+    // 팝업 닫기 (쿼리스트링 제거 후 페이지 리로드)
     const handleClosePopup = () => {
-        setShowPopup(false); // Update showPopup state to false
-        navigate(""); // Remove URL query parameter
-    };
-
-    const handleNavigate = () => {
-        navigate("/password");
+        setShowPopup(false); ; // showPopup 상태를 false로 업데이트
+        navigate(""); // 
+        window.location.reload(); // 강제로 페이지 리로드하여 컴포넌트 리셋
     };
 
     return (
@@ -66,7 +63,7 @@ function Contents() {
                         </div>
                     </div>
                     <div className="button-group">
-                        <div className="group-title">교육 출석</div>
+                        <div className="group-title">교육 및 프로그램 출석</div>
                         <div className="middle-buttons">
                             <div className="middle-button"
                                 style={{
@@ -124,8 +121,8 @@ function Contents() {
                 <div className="playpass">청소년문화의집 숨&뜰</div>
 
                 {/* showPopup=true일 경우 팝업 띄우기 */}
-                {showPopup && <PopupPassword onClose={handleClosePopup} />}
-                </div>
+                {showPopup && <PopupPassword onOpen={() => {}} onClose={handleClosePopup} />}
+            </div>
         </div>
     );
 }
