@@ -1,0 +1,141 @@
+.attendance-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.attendance-header {
+    margin: 30px;
+}
+.attendance-calendar {
+    background: #ff69b4;
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    width: 90%;
+    max-width: 450px;
+}
+
+.attendance-calendar p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0.9; /* 날짜 색상 강조 */
+}
+
+.attendance-calendar h1 {
+    margin: 15px 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.total-points {
+    background: white;
+    color: #ff69b4;
+    padding: 12px 18px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+/* 출석 체크 날짜 목록 중앙 정렬 */
+.attendance-days {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* 각 날짜 항목 정렬 */
+.attendance-day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 요일 텍스트 중앙 정렬 */
+.day-label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* 출석 체크 원 크기 조정 및 중앙 정렬 */
+.checked-circle,
+.unchecked-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checked-circle {
+    background: #ff69b4;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.unchecked-circle {
+    background: #ddd;
+}
+
+/* 포인트 표시 중앙 정렬 */
+.points {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+/* 보너스 포인트 스타일 */
+.bonus-points {
+    background: #ff69b4;
+    color: white;
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 12px;
+    margin-top: 5px;
+}
+
+/* 두 배 포인트 스타일 */
+.double {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.attendance-button {
+    width: 80%;
+    max-width: 400px;
+    padding: 15px;
+    background: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    transition: background 0.3s;
+}
+
+.attendance-button:hover {
+    background: #d94689;
+}
