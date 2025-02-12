@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import CalendarPopup from "../Calendar/CalendarPopup";
+import CalendarPopup from "../Calendar/AttendanceTracker";
 import "./PopupPassword.css";
 
 const PasswordPopup = ({ onOpen, onClose }) => {
