@@ -6,34 +6,42 @@ const PasswordPopup = ({ onOpen, onClose }) => {
     const [input, setInput] = useState("");
     const [step, setStep] = useState("password");
 
+    // 팝업이 열리면 onOpen을 호출
     useEffect(() => {
         if (onOpen) {
             onOpen();
         }
     }, [onOpen]);
 
-    // 비밀번호가 올바른지 자동으로 확인
+    // 비밀번호가 맞으면 캘린더로 이동
     useEffect(() => {
         if (input === "01234") {
             setStep("calendar");
-            setInput("");
+            setInput(""); // 비밀번호 입력 초기화
         }
     }, [input]);
 
+    // 숫자 키를 클릭했을 때
     const handleKeyClick = (num) => {
         setInput((prev) => prev + num);
     };
 
+    // 백스페이스
     const handleBackspace = () => {
         setInput((prev) => prev.slice(0, -1));
     };
 
+    // 리셋
     const handleReset = () => {
         setInput("");
     };
 
+    // 캘린더 팝업 닫기
     const handleCalendarClose = () => {
-        onClose();
+        setStep("password"); // 캘린더를 닫고 다시 비밀번호 화면으로 돌아감
+        if (onClose) {
+            onClose(); // 부모 컴포넌트에서 팝업 닫기
+        }
     };
 
     return (

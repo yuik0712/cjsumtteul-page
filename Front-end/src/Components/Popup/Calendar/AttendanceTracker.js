@@ -16,7 +16,7 @@ const AttendanceTracker = ({ onClose }) => {
     { day: "수", points: 3, checked: false },
     { day: "목", points: 3, checked: false, bonus: 50 },
     { day: "금", points: 3, checked: false },
-    { day: "토", points: 3, checked: false, bonus: 100, double: true },
+    { day: "토", points: 3, checked: false, bonus: 100 },
   ];
 
   // 출석 데이터 상태
@@ -24,31 +24,27 @@ const AttendanceTracker = ({ onClose }) => {
 
   // useEffect로 초기 데이터 설정
   useEffect(() => {
+    const firstVisit = !localStorage.getItem("attendanceData");
+
+    if (firstVisit) {
+      localStorage.setItem("attendanceData", JSON.stringify(defaultAttendanceData));
+      localStorage.setItem("stampDay", "1");
+      localStorage.setItem("isLoggedIn", "false");
+    }
+
     const loggedInStatus = localStorage.getItem("isLoggedIn") === "true";
     setIsChecked(loggedInStatus);
-
+    
     const storedStampDay = localStorage.getItem("stampDay");
     if (storedStampDay) {
       setStampDay(parseInt(storedStampDay, 10));
     }
-
-    // localStorage에서 출석 데이터 불러오기 (없으면 기본값 사용)
-    const storedAttendance = localStorage.getItem("attendanceData");
-    if (storedAttendance) {
-      try {
-        setAttendanceData(JSON.parse(storedAttendance));
-      } catch (error) {
-        console.error("출석 데이터 파싱 오류:", error);
-        setAttendanceData(defaultAttendanceData); // 파싱 실패 시 기본값 설정
-      }
-    } else {
-      // 데이터가 없으면 기본값을 저장
-      localStorage.setItem("attendanceData", JSON.stringify(defaultAttendanceData));
-    }
   }, []);
 
+  // 로그인 처리 함수
   const handleLogin = () => {
-    navigate("/contents?isAuthenticated=true");
+    localStorage.setItem("isLoggedIn", "true");  // 로그인 상태를 로컬스토리지에 저장
+    navigate("/contents");  // 쿼리스트링 없이 /contents로 리다이렉션
   };
 
   const handleCheckAttendance = () => {
@@ -100,14 +96,6 @@ const AttendanceTracker = ({ onClose }) => {
             {checked && bonus && <span className="bonus-points">+{bonus}P</span>}
           </div>
         ))}
-
-        <div className="attendance-day">
-          <span className="day-label">{["일", "월", "화", "수", "목", "금", "토"][dayIndex]}</span>
-          <div className={isChecked ? "checked-circle" : "unchecked-circle"}>
-            {isChecked && "✔"}
-          </div>
-          {isChecked && <span className="points">+3P</span>}
-        </div>
       </div>
 
       <button className="attendance-button" onClick={isChecked ? handleClose : handleCheckAttendance}>
