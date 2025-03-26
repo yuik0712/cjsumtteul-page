@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+  1) Arial: 이 값은 웹페이지에서 텍스트를 표시할 때 사용할 글꼴 중 첫 번째로 지정한 글꼴 이름이다. 
+  웹 브라우저는 컴퓨터에 설치된 해당 글꼴을 찾아서 사용하려고 시도한다. 
+  만약 컴퓨터에 Arial 글꼴이 설치되어 있지 않다면, 다음에 오는 글꼴 이름(두 번째 값)로 대체되어 텍스트가 표시된다.
+  2) sans-serif: 이 값은 웹 브라우저가 Arial 글꼴을 찾을 수 없는 경우 대체할 기본 sans-serif 글꼴을 지정한다. 
+  "sans-serif"는 비행기체(serif) 없이 깔끔하게 디자인된 글꼴을 의미한다. 
+  보통 Arial이나 Helvetica, Verdana 등과 같은 글꼴이 이에 해당한다. 
+  
+  따라서 font-family: Arial, sans-serif;는 웹페이지에서 텍스트를 Arial 글꼴로 표시하려고 시도하고, 
+  만약 Arial 글꼴이 없으면 기본적으로 sans-serif 글꼴을 사용하도록 지정하는 CSS 속성이다. 
+  이렇게 함으로써 모든 사용자들이 비슷한 형태의 텍스트를 보게 된다. 
+  */
+
+time.icon {
+    font-size: 1em;
+    /* change icon size */
+    display: block;
+    position: relative;
+    width: 7em;
+    height: 7em;
+    background-color: #fff;
+    border-radius: 0.6em;
+    box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+    overflow: hidden;
+}
+
+time.icon * {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+time.icon strong {
+    position: absolute;
+    top: 0;
+    padding: 0.4em 0;
+    color: #fff;
+    background-color: #fd9f1b;
+    border-bottom: 1px dashed #f37302;
+    box-shadow: 0 2px 0 #fd9f1b;
+}
+
+time.icon em {
+    position: absolute;
+    bottom: 0.3em;
+    color: #fd9f1b;
+}
+
+time.icon span {
+    font-size: 2.8em;
+    letter-spacing: -0.05em;
+    padding-top: 0.8em;
+    color: #2f2f2f;
+}
