@@ -4,37 +4,104 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc508013-3d42-4cf0-ad1a-410216856550" name="변경" comment="" />
+    <list default="true" id="bc508013-3d42-4cf0-ad1a-410216856550" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Header/Popup/Calendar/AttendanceTracker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kiosk/src/Components/GoToUseApplication/Contents.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kiosk/src/Components/GoToUseApplication/Contents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kiosk/src/Components/GoToUseApplication/GoToUseApplication.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kiosk/src/Components/GoToUseApplication/GoToUseApplication.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/1.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/10.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/11.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/12.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/13.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/13.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/14.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/14.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/15.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/15.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/16.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/16.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/2.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/3.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/4.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/5.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/6.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/7.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/8.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/9.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Contents.css" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Contents.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Contents.js" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Contents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Header/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Header/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Popup/Calendar/AttendanceTracker.css" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Header/Popup/Calendar/AttendanceTracker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Popup/Calendar/AttendanceTracker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Popup/Calendar/CalendarPopup copy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Popup/Calendar/CalendarPopup.css" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Header/Popup/Calendar/CalendarPopup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Popup/Calendar/CalendarPopup.js" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Header/Popup/Calendar/CalendarPopup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Popup/GoToUseApplication/GoToUseApplication.css" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/GoToUseApplication/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Popup/GoToUseApplication/GoToUseApplication.js" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/GoToUseApplication/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Popup/Password/PopupPassword.css" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Header/Popup/Password/PopupPassword.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Popup/Password/PopupPassword.js" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Header/Popup/Password/PopupPassword.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Popup/Popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Popup/Popup.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2ut0tH1KAnYmCmw817xKjCGJQ3I" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jigdongdaejang/Documents/GitHub/cjsumtteul-page/Kiosk/src/Components/GoToUseApplication&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/jigdongdaejang/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Kiosk/src/Components/GoToUseApplication" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Kiosk/src/Components/Contents/Header" />
+      <recent name="$PROJECT_DIR$/Kiosk/src/Components/Contents" />
+      <recent name="$PROJECT_DIR$/Kiosk/src/Components" />
+      <recent name="$PROJECT_DIR$/Kiosk/src" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -50,11 +117,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743052775778</updated>
-      <workItem from="1743052777696" duration="2403000" />
+      <workItem from="1743052777696" duration="24718000" />
+      <workItem from="1743145772138" duration="13475000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Kiosk/src/App.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
