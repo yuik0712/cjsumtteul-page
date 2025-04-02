@@ -1,0 +1,113 @@
+/* TopInfo.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.top-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column; /* 세로로 배치 */
+}
+
+.left-top {
+  display: flex; /* 가로로 배치 */
+  align-items: center;
+}
+
+.left-top p {
+  margin-top: 22px;
+  margin-left: 10px; /* p 태그 좌측 여백 추가 */
+}
+
+.back-button {
+  padding: 5px 10px;
+  border: none;
+  background-color: transparent;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.left-title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px; /* left-title 상단 여백 추가 */
+  margin-left: 10px; /* 왼쪽 여백 추가 */
+  text-align: left; /* 텍스트 왼쪽 정렬 */
+}
+
+.left-title .title, .left-title .subtitle {
+  font-size: 2.0em;
+  font-weight: bold;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.right-section .date-day {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.right-section .date-time {
+  font-size: 1.5em;
+}
+
+.right-section {
+  height: 190px;
+}
+
+/* 현재 날짜 */
+.right-section .date-day {
+  position: absolute;
+  /* 요소의 위치가 얼마큼 간격을 둘지 정함 */
+  top: 30px;
+  /* 페이지의 상단에서의 거리 */
+  right: 70px;
+  /* 페이지의 오른쪽에서의 거리 */
+  font-size: 1.2em;
+  /* 글자 폰트 지정 */
+  margin-bottom: 10px;
+  /* 하단 여백 지정 */
+  text-align: right;
+  /* 텍스트를 오른쪽 정렬 */
+  padding: 5px 10px;
+  /* 상하좌우 간격 지정 */
+  border-radius: 5px;
+  /* 요소의 모서리를 둥글게 처리 */
+}
+
+/* 현재 시간 */
+.right-section .date-time {
+  position: absolute;
+  /* 요소의 위치가 얼마큼 간격을 둘지 정함 */
+  top: 60px;
+  /* 페이지의 상단에서의 거리 */
+  right: 60px;
+  /* 페이지의 오른쪽에서의 거리 */
+  font-size: 2.5em;
+  /* 글자 폰트 지정 */
+  margin-bottom: 10px;
+  /* 하단 여백 지정 */
+  text-align: center;
+  /* 텍스트를 오른쪽 정렬 */
+  padding: 5px 10px;
+  /* 상하좌우 간격 지정 */
+  border-radius: 5px;
+  /* 요소의 모서리를 둥글게 처리 */
+}
+
+.content {
+  padding: 20px;
+}

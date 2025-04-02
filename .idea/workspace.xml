@@ -4,23 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc508013-3d42-4cf0-ad1a-410216856550" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Header/Popup/Calendar/AttendanceTracker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kiosk/src/Components/GoToUseApplication/Contents.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kiosk/src/Components/GoToUseApplication/Contents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kiosk/src/Components/GoToUseApplication/GoToUseApplication.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kiosk/src/Components/GoToUseApplication/GoToUseApplication.js" afterDir="false" />
+    <list default="true" id="bc508013-3d42-4cf0-ad1a-410216856550" name="변경" comment="[재커밋] 콘텐츠 헤더 영역에 사용할 배경이미지">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/0.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/1.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/10.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/11.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/12.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/13.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/13.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/14.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/14.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/15.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/15.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/16.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/16.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/17.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/17.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/18.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/18.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/2.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/3.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/4.pack" afterDir="false" />
@@ -31,23 +23,8 @@
       <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/9.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kiosk/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Contents.css" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Contents.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Contents.js" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Contents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Header/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Header/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Popup/Calendar/AttendanceTracker.css" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Header/Popup/Calendar/AttendanceTracker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Popup/Calendar/AttendanceTracker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Header/background.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Popup/Calendar/CalendarPopup copy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Popup/Calendar/CalendarPopup.css" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Header/Popup/Calendar/CalendarPopup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Popup/Calendar/CalendarPopup.js" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Header/Popup/Calendar/CalendarPopup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Popup/GoToUseApplication/GoToUseApplication.css" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/GoToUseApplication/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Popup/GoToUseApplication/GoToUseApplication.js" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/GoToUseApplication/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Popup/Password/PopupPassword.css" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Header/Popup/Password/PopupPassword.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Popup/Password/PopupPassword.js" beforeDir="false" afterPath="$PROJECT_DIR$/Kiosk/src/Components/Contents/Header/Popup/Password/PopupPassword.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Popup/Popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kiosk/src/Components/Popup/Popup.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +34,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
+        <option value="package.json" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -96,9 +74,9 @@
       <recent name="$PROJECT_DIR$/Kiosk/src/Components/GoToUseApplication" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Kiosk/src/Components/Contents/Header" />
       <recent name="$PROJECT_DIR$/Kiosk/src/Components/Contents" />
       <recent name="$PROJECT_DIR$/Kiosk/src/Components" />
+      <recent name="$PROJECT_DIR$/Kiosk/src/Components/Contents/Header" />
       <recent name="$PROJECT_DIR$/Kiosk/src" />
     </key>
   </component>
@@ -119,11 +97,97 @@
       <updated>1743052775778</updated>
       <workItem from="1743052777696" duration="24718000" />
       <workItem from="1743145772138" duration="13475000" />
+      <workItem from="1743551346127" duration="1137000" />
     </task>
+    <task id="LOCAL-00001" summary="[refactor] 페이지 라우터 수정한 커밋">
+      <option name="closed" value="true" />
+      <created>1743552667839</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743552667839</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[refactor] 출석체크 완료 페이지 마지막 수정 및 추가 기능 구현 후 커밋">
+      <option name="closed" value="true" />
+      <created>1743552715196</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743552715196</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[refactor] 캘린더 페이지 재커밋">
+      <option name="closed" value="true" />
+      <created>1743552740213</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743552740213</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[재커밋] 브랜치 충돌로 인해 재커밋">
+      <option name="closed" value="true" />
+      <created>1743552789596</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743552789596</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[feat] 이용 신청 페이지 레이아웃 &amp; 스타일 구현한 커밋">
+      <option name="closed" value="true" />
+      <created>1743552820127</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743552820127</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[재커밋] 비밀번호 입력 팝업창 재커밋">
+      <option name="closed" value="true" />
+      <created>1743552852576</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743552852576</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[재커밋] 팝업창 재커밋">
+      <option name="closed" value="true" />
+      <created>1743552870154</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743552870154</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[재커밋]">
+      <option name="closed" value="true" />
+      <created>1743552889122</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743552889122</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[재커밋] 콘텐츠 헤더 영역에 사용할 배경이미지">
+      <option name="closed" value="true" />
+      <created>1743552915138</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1743552915138</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[refactor] 페이지 라우터 수정한 커밋" />
+    <MESSAGE value="[refactor] 출석체크 완료 페이지 마지막 수정 및 추가 기능 구현 후 커밋" />
+    <MESSAGE value="[refactor] 캘린더 페이지 재커밋" />
+    <MESSAGE value="[재커밋] 브랜치 충돌로 인해 재커밋" />
+    <MESSAGE value="[feat] 이용 신청 페이지 레이아웃 &amp; 스타일 구현한 커밋" />
+    <MESSAGE value="[재커밋] 비밀번호 입력 팝업창 재커밋" />
+    <MESSAGE value="[재커밋] 팝업창 재커밋" />
+    <MESSAGE value="[재커밋]" />
+    <MESSAGE value="[재커밋] 콘텐츠 헤더 영역에 사용할 배경이미지" />
+    <option name="LAST_COMMIT_MESSAGE" value="[재커밋] 콘텐츠 헤더 영역에 사용할 배경이미지" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

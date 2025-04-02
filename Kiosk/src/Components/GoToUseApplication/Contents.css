@@ -1,0 +1,142 @@
+.Container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 20%;
+    padding: 20px;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-x: auto;
+    white-space: none;
+}
+
+.sidebar-item {
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.sidebar-item button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+    background-color: transparent; /* Make the background transparent */
+    color: white; /* Ensure text is still visible */
+    min-width: 100px;
+}
+
+.sidebar-4floor-item button {
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+    margin-bottom: 90px;
+    background-color: transparent; /* Make the background transparent */
+    color: white; /* Ensure text is still visible */
+    min-width: 100px;
+}
+
+.sidebar-3floor-item button {
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+    background-color: transparent; /* Make the background transparent */
+    color: white; /* Ensure text is still visible */
+    min-width: 100px;
+    margin-bottom: 500px;
+}
+
+.sidebar-2floor-item button {
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+    background-color: transparent; /* Make the background transparent */
+    color: white; /* Ensure text is still visible */
+    min-width: 100px;
+    margin-bottom: 360px;
+}
+
+.sidebar-1floor-item button {
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+    background-color: transparent; /* Make the background transparent */
+    color: white; /* Ensure text is still visible */
+    min-width: 100px;
+}
+
+.sidebar-item button:hover {
+    background-color: rgba(103, 58, 183, 0.7); /* Use a semi-transparent purple on hover */
+}
+
+.main-content {
+    flex: 1;
+    width: 80%;
+}
+
+.contents {
+    padding: 20px;
+    min-height: 100%;
+}
+
+.content.dance-space {
+    background: linear-gradient(to right, #9c27b0, #673ab7);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: fit-content;
+    margin-bottom: 10px;
+    width: 95%;
+    height: 100px;
+    min-height: 100px;
+}
+
+.content-title {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    width: 100%;
+}
+
+.space-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: auto;
+}
+
+.space {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 4px;
+}
