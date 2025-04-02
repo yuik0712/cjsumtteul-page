@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import "./Contents.css"; // 콘텐츠 css
-import Header from "../Header/Header"; // 헤더 영역
-import PopupPassword from "../Popup/Password/PopupPassword"; // 비밀번호 입력 팝업
+import Header from "../Contents/Header/Header"; // 헤더 영역
+import PopupPassword from "../Contents/Popup/Password/PopupPassword"; // 비밀번호 입력 팝업
 
 function Contents() {
     const navigate = useNavigate();
     const location = useLocation();
     const queryParams = new URLSearchParams(location.search);
-    
+
     const [showPopup, setShowPopup] = useState(queryParams.get("showPopup") === "true");
     const [isLoggedIn, setIsLoggedIn] = useState(false);
     const [stampDay, setStampDay] = useState(1); // 첫 출석 일 경우 기본값 1
@@ -96,18 +96,18 @@ function Contents() {
                         <div className="group-title" style={{color: '#6a11cb'}}>시설 이용 신청</div>
                         <div className="middle-buttons">
                             <div className="middle-button" onClick={handleGoToUseApplication}
-                                style={{
-                                    background: 'linear-gradient(135deg, #6a11cb, #2575fc)',
-                                    color: '#fff',
-                                }}>
+                                 style={{
+                                     background: 'linear-gradient(135deg, #6a11cb, #2575fc)',
+                                     color: '#fff',
+                                 }}>
                                 <span>✨</span>
                                 <div>이용신청</div>
                             </div>
                             <div className="middle-button"
-                                style={{
-                                    background: 'linear-gradient(135deg, #e52d27, #b31217)',
-                                    color: '#fff',
-                                }}>
+                                 style={{
+                                     background: 'linear-gradient(135deg, #e52d27, #b31217)',
+                                     color: '#fff',
+                                 }}>
                                 <span>🏃</span>
                                 <div>취소·중도퇴실</div>
                             </div>
@@ -117,10 +117,10 @@ function Contents() {
                         <div className="group-title" style={{color: '#009efd'}}>교육 및 프로그램 출석</div>
                         <div className="middle-buttons">
                             <div className="middle-button"
-                                style={{
-                                    background: 'linear-gradient(135deg, #009efd, #2af598)',
-                                    color: '#fff',
-                                }}>
+                                 style={{
+                                     background: 'linear-gradient(135deg, #009efd, #2af598)',
+                                     color: '#fff',
+                                 }}>
                                 <span>✋</span>
                                 <div>출석체크</div>
                             </div>
@@ -130,10 +130,10 @@ function Contents() {
                         <div className="group-title" style={{ color: '#ff7f50' }}>물품 대여</div>
                         <div className="middle-buttons">
                             <div className="middle-button"
-                                style={{
-                                    background: 'linear-gradient(135deg, #ff7f50, #ffbc47)',
-                                    color: '#fff',
-                                }}>
+                                 style={{
+                                     background: 'linear-gradient(135deg, #ff7f50, #ffbc47)',
+                                     color: '#fff',
+                                 }}>
                                 <span>🎲</span>
                                 <div>대여신청</div>
                             </div>
