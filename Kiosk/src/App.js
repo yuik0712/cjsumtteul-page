@@ -2,8 +2,8 @@ import React from "react";
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Contents from "./Components/Contents/Contents";
-import PopupPassword from "./Components/Popup/Password/PopupPassword";
-import GoToUseApplication from "./Components/Popup/GoToUseApplication/GoToUseApplication";
+import PopupPassword from "./Components/Contents/Popup/Password/PopupPassword";
+import GoToUseApplication from "./Components/GoToUseApplication/GoToUseApplication";
 
 function App() {
   return (
